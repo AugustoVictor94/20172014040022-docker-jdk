@@ -1,4 +1,4 @@
 FROM debian:latest
 
 RUN set -xe \ 
-  && apk add --update jdk10 
+  && apk add --update openjdk-8-jdk 
