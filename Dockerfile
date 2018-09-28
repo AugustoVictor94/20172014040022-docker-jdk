@@ -7,6 +7,6 @@ RUN set -xe \
    nano /etc/apt/sources.list \
    apt-get update \
    apt-cache search openjdk \
-   apt-get install openjdk-10-jdk \
+   apt-get install openjdk-10-jdk 
    
    
